@@ -1,9 +1,9 @@
 let webpack = require('webpack');
 
 module.exports = {
-    entry: "./src/Correios.js",
+    entry: "./src/FindUCep.js",
     output: {
-        filename: "dist/correios.min.js"
+        filename: "dist/finducep.min.js"
     },
     module: {
         loaders: [

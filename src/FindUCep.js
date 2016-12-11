@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Promise from 'es6-promise';
 
-class Correios {
+class FindUCep {
 
   constructor() {
     Promise.polyfill();
@@ -110,4 +110,4 @@ class Correios {
 
 }
 
-export default Correios;
+export default FindUCep;
