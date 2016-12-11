@@ -30,7 +30,7 @@ Now, you need to instantiate it.
 const cep = 05022001;
 const finducep = new FindUCep();
 
-finducep.find(${cep})
+finducep.find(cep)
 	.then(response => {
 
 	})

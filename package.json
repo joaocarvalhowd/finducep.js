@@ -1,6 +1,6 @@
 {
   "name": "finducep.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "🕵 The easy way to find the info about your CEP. ",
   "main": "dist/correios.min.js",
   "scripts": {
