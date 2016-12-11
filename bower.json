@@ -1,0 +1,22 @@
+{
+  "name": "finducep.js",
+  "description": "🕵 The easy way to find the info about your CEP.",
+  "main": "dist/finducep.min.js",
+  "authors": [
+    "João Carvalho <oi@joaocarvalhowd.com.br>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "cep",
+    "zipcode",
+    "postal"
+  ],
+  "homepage": "https://github.com/joaocarvalhowd/finducep.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

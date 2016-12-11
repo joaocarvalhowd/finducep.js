@@ -110,4 +110,6 @@ class FindUCep {
 
 }
 
+window.FindUCep = FindUCep;
+
 export default FindUCep;
