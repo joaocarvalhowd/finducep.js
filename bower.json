@@ -1,5 +1,6 @@
 {
   "name": "finducep.js",
+  "version": "1.0.4",
   "description": "🕵 The easy way to find the info about your CEP.",
   "main": "dist/finducep.min.js",
   "authors": [
