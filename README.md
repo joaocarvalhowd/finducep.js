@@ -1,29 +1,35 @@
 # finducep.js
-🕵 The easy way to find the info about your CEP.
+🕵  The easy way to find the info about your CEP.
 
 ## Install
 
-You can get it on npm.
+You can install this package either with `npm` or with `bower`.
 
-```
+### npm
+
+```shell
 npm install finducep.js --save
 ```
 
-Or bower, too.
-
-```
-bower install finducep.js --save
-```
-
-## Setup
-
-First, include the script located on the `dist` folder.
+Then add the `<script>` to your `index.html`:
 
 ```html
-<script src="dist/finducep.min.js"></script>
+<script src="/node_modules/finducep.js/dist/finducep.min.js"></script>
 ```
 
-Now, you need to instantiate it.
+### bower
+
+```shell
+bower install finducep.js
+```
+
+Then add a `<script>` to your `index.html`:
+
+```html
+<script src="/bower_components/finducep.js/dist/finducep.min.js"></script>
+```
+
+## Example
 
 ```js
 
@@ -31,10 +37,8 @@ const cep = 05022001;
 const finducep = new FindUCep();
 
 finducep.find(cep)
-	.then(response => {
-
-	})
+	.then(response => console.log(response))
 	.catch(error => console.log(error))
+	
 ```
-
 
